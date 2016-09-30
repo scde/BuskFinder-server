@@ -8,8 +8,8 @@ var config = {
         app: {
             name: "buskfinder"
         },
-        port: process.env.PORT || 61088,
-        db: "mongodb://androids_mongoadmin:fox9aecaiZ@localhost:21257/buskfinder-development"
+        port: process.env.PORT || 3000,
+        db: "mongodb://localhost/buskfinder-development"
     },
 
     test: {
@@ -17,8 +17,8 @@ var config = {
         app: {
             name: "buskfinder"
         },
-        port: process.env.PORT || 64671,
-        db: "mongodb://androids_mongoadmin:fox9aecaiZ@localhost:21257/buskfinder-test"
+        port: process.env.PORT || 3000,
+        db: "mongodb://localhost/buskfinder-test"
     },
 
     production: {
@@ -26,8 +26,8 @@ var config = {
         app: {
             name: "buskfinder"
         },
-        port: process.env.PORT || 61088,
-        db: "mongodb://androids_mongoadmin:fox9aecaiZ@localhost:21257/buskfinder-production"
+        port: process.env.PORT || 3000,
+        db: "mongodb://localhost/buskfinder-production"
     }
 };
 
